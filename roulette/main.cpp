@@ -30,7 +30,6 @@ while (jetons >= 1 && essaie < 3)
 {
     // Nombre alétoire correspondant a la case sur laquelle la bille se trouve
     nombreRoulette = rand()%36;
-    cout << nombreRoulette << endl;
     cout << "Voulez vous parier sur la parité ou un chiffre ? (parite/chiffre) " << endl;
     cin >> choixStyleJeu;
     // Si le joueur veut jouer sur la parite du nombre
