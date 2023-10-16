@@ -26,7 +26,7 @@ string continuer;
 
 // Boucle de jeu
 srand(seed);
-while (jetons >= 1 && essaie < 3)
+while (jetons >= 1 && essaie <= 10)
 {
     // Nombre alétoire correspondant a la case sur laquelle la bille se trouve
     nombreRoulette = rand()%36;
@@ -85,8 +85,6 @@ while (jetons >= 1 && essaie < 3)
         else
             cout << "Défaite ! Vous avez maintenant " << jetons << endl;
     }
-    cout << essaie <<endl;
-
 }
 
 // Affichage de fin et on renvoie le score
