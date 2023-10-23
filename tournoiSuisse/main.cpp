@@ -3,9 +3,9 @@
 
 using namespace std;
 
-bool leJ1AGagne(int team1, int team2){
-    //return jeu();
-    int a = 0 + rand()%1;
+bool leJ1AGagne(/*int team1, int team2*/){
+    //return jeu(team1,team2);
+    int a = 0 + rand()%2;
     if (a == 0) return false;
     else return true;
 }
@@ -26,10 +26,12 @@ void afficheVector(vector <int> vec){
     cout << "}" << endl;
 }
 
-void copyVector(vector <int> vec1, vector <int> vec2){
-    for (size_t i = 0 ; i < vec1.size() ; ++i){
-        vec2.push_back(vec1[i]);
+vector <int> copyVector(vector <int> vecIn){
+    vector <int> vec;
+    for (size_t i = 0 ; i < vecIn.size() ; ++i){
+        vec.push_back(vecIn[i]);
     }
+    return vec;
 }
 
 void tournoiSansBracketLooser()
@@ -46,19 +48,19 @@ void tournoiSansBracketLooser()
     else {
         int round = 1;
         while (team.size() > taille){
-            for (size_t i = 0 ; i < taille/2 ; ){
-                if (leJ1AGagne(team[0+i],team[1+i])) {
-                    team2.push_back(team[0+i]);
-                    team.erase(team.begin() + 0 + i);
-                    team.erase(team.begin() + 0 + i);
+            for (size_t i = 0 ; i < taille/2 ; ++i){
+                if (leJ1AGagne(/*team[0],team[1]*/)) {
+                    team2.push_back(team[0]);
+                    team.erase(team.begin() + 0);
+                    team.erase(team.begin() + 0);
                 }
                 else{
-                    team2.push_back(team[1+i]);
-                    team.erase(team.begin() + 0 + i);
-                    team.erase(team.begin() + 0 + i);
+                    team2.push_back(team[1]);
+                    team.erase(team.begin() + 0);
+                    team.erase(team.begin() + 0);
                 }
             }
-            copyVector(team, team2);
+            team = copyVector(team);
             team2 = {};
             cout << "round " << round << endl;
             afficheVector(team);
@@ -69,6 +71,30 @@ void tournoiSansBracketLooser()
 
 int main(){
      cout << "Hello World!" << endl;
-     tournoiSansBracketLooser();
+     //tournoiSansBracketLooser();
+     /*vector <int> vec1;
+     vector <int> vec2;
+     afficheVector(vec1);
+     afficheVector(vec2);
+     vec1 = {1, 2, 3, 4, 5};
+     vec2 = copyVector(vec1);
+     vec2[1] = 6;
+     afficheVector(vec1);
+     afficheVector(vec2);*/
+
+     /*int sum = 0;
+     for (unsigned i = 0 ; i < 100 ; ++i){
+        int a = leJ1AGagne();
+        cout << a << endl;
+        sum += a;
+     }
+     cout << sum << endl;*/
+
+     vector <int> team;
+     vector <int> team2;
+     team = {1, 2, 3, 4};
+     team2.push_back(team[0]);
+     team.erase(team.begin() + 0);
+     team.erase(team.begin() + 0);
      return 0;
 }
