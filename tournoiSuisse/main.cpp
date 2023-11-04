@@ -27,7 +27,6 @@ void afficheVector(vector <int> vec){
     cout << "}" << endl;
 }
 
-//pow(2,i)
 void tournoiSansBracketLooser()
 {
     vector <int> team;
@@ -44,17 +43,19 @@ void tournoiSansBracketLooser()
         int combat = 1;
         while (team.size() > taille){
             cout << "round " << round << endl;
-            for (size_t i = 0 ; i <  ; ++i){
+            for (size_t i = 0 ; i < pow(2,i) ; ++i){
                 cout << "combat " << combat << endl;
                 if (leJ1AGagne(/*team[0],team[1]*/)) {
                     cout << team[0] << " gagne" << endl;
                     team2.push_back(team[0]);
-                    team.erase(team.begin() + 0);
+                    team.erase(team.begin());
+                    team.erase(team.begin());
                 }
                 else{
                     cout << team[1] << " gagne" << endl;
                     team2.push_back(team[1]);
-                    team.erase(team.begin() + 1);
+                    team.erase(team.begin());
+                    team.erase(team.begin());
                 }
                 ++combat;
             }
