@@ -31,7 +31,7 @@ void tournoiSansBracketLooser()
 {
     vector <int> team;
     vector <int> team2;
-    unsigned nbTeam = 16;
+    unsigned nbTeam = 18;
     const size_t taille = 1;
     for (unsigned i = 1 ; i <= nbTeam ; ++i){
         team.push_back(i);
