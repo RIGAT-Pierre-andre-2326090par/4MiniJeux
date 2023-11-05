@@ -4,21 +4,21 @@
 
 using namespace std;
 
-bool leJ1AGagne(/*int team1, int team2*/){
+bool leJ1AGagne(/*int & team1, int & team2*/){
     //return jeu(team1,team2);
     int a = 0 + rand()%2;
     if (a == 0) return false;
     else return true;
 }
 
-bool estUnePuissanceDe2(int nb){
+bool estUnePuissanceDe2(int & nb){
     for (int i = 0 ; i <= 100 ; ++i){
         if (nb == pow(2,i)) return true;
     }
     return false;
 }
 
-void afficheVector(vector <int> vec){
+void afficheVector(vector <int> & vec){
     cout << "{";
     for (size_t i = 0 ; i < vec.size() ; ++i){
         cout << vec[i];
