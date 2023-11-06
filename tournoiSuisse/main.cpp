@@ -32,42 +32,34 @@ void tournoiSansBracketLooser()
     vector <int> team;
     vector <int> team2;
     unsigned nbTeam = 16;
-    const size_t taille = 1;
+    //const size_t taille = 1;
     for (unsigned i = 1 ; i <= nbTeam ; ++i){
         team.push_back(i);
     }
-    afficheVector(team);
+    /*++round;
+    cout << "round " << round << endl;*/
     if (!estUnePuissanceDe2(nbTeam)) cout << "refaite les équipes" << endl;
     else {
         int round = 1;
         int combat = 1;
-        while (team.size() > taille){
-            cout << "round " << round << endl;
-            for (size_t i = 0 ; i < pow(2,i) ; ++i){
-                cout << "combat " << combat << endl;
-                if (leJ1AGagne(/*team[0],team[1]*/)) {
-                    cout << team[0] << " gagne" << endl;
-                    team2.push_back(team[0]);
-                    team.erase(team.begin());
-                    team.erase(team.begin());
-                }
-                else{
-                    cout << team[1] << " gagne" << endl;
-                    team2.push_back(team[1]);
-                    team.erase(team.begin());
-                    team.erase(team.begin());
-                }
-                ++combat;
+        cout << "round " << round << endl;
+        for (size_t i = 0 ; i < team.size() - 1; ++i){
+            cout << "combat " << combat << endl;
+            if (leJ1AGagne(/*team[0],team[1]*/)) {
+                cout << team[0 + i] << " gagne" << endl;
+                team.erase(team.begin() + i + 1);
             }
-            nbTeam /= 2;
-            copy(team2.begin(), team2.end(), team.begin());
-            team2 = {};
+            else{
+                cout << team[1 + i] << " gagne" << endl;
+                team.erase(team.begin() + i);
+            }
+            ++combat;
             afficheVector(team);
-            afficheVector(team2);
-            ++round;
         }
+
     }
 }
+
 
 int main(){
      cout << "Hello World!" << endl;
