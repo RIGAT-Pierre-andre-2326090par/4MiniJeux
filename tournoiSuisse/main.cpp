@@ -7,8 +7,7 @@ using namespace std;
 bool leJ1AGagne(/*int team1, int team2*/){
     //return jeu(team1,team2);
     int a = 0 + rand()%2;
-    if (a == 0) return false;
-    else return true;
+    return (a == 0);
 }
 
 int estUnePuissanceDe2(int nb){
@@ -59,6 +58,7 @@ int tournoiSansLooserBracket(string typeTournoi, vector <int> team, unsigned nbT
         }
         cout << "le vainqueur " << typeTournoi << " est " << team[0] << endl;
     }
+    return team[0];
 }
 
 int tournoiAvecLooserBracket(string typeTournoi, vector <int> team, unsigned nbTeam){
@@ -86,6 +86,7 @@ int tournoiAvecLooserBracket(string typeTournoi, vector <int> team, unsigned nbT
         tournoiSansLooserBracket("du looser bracket",team2,nbTeam/2);
         cout << "les vainqueurs " << typeTournoi << " sont " << team[0] << " et " << team2[0] << endl;
     }
+    return team[0];
 }
 
 void triScoreTeam(vector <int> team, vector <int> score){
@@ -114,6 +115,22 @@ void triScoreTeam(vector <int> team, vector <int> score){
     afficheVector(score);
 }
 
+int tournoiChampionnat(string typeTournoi, vector <int> team, unsigned nbTeam, unsigned nbRound){
+    vector <int> score;
+    for (unsigned i = 0 ; i < team.size() - 1 ; ++i){
+        for (unsigned j = i ; j < team.size() - 1 ; ++j){
+            if (leJ1AGagne()){
+                ++score[i];
+            }
+            else{
+                ++score[j];
+            }
+        }
+    }
+    triScoreTeam(team,score);
+    return team[0];
+}
+
 int tournoiSuisse(string typeTournoi, vector <int> team, unsigned nbTeam, unsigned nbRound){
     unsigned combat = 1;
     vector <int> score;
@@ -139,14 +156,15 @@ int tournoiSuisse(string typeTournoi, vector <int> team, unsigned nbTeam, unsign
     }
     afficheVector(team);
     afficheVector(score);
-    return (team[0]);
+    cout << "le vainqueur " << typeTournoi << " est " << team[0] << endl;
+    return team[0];
 }
 
 int main(){
     //cout << "Hello World!" << endl;
     unsigned nbTeam = 16;
     vector <int> team = donneEquipes(nbTeam);
-    //tournoiSansLooserBracket("du tournoi sans looser bracket",team,nbTeam);
+    tournoiSansLooserBracket("du tournoi sans looser bracket",team,nbTeam);
     //tournoiAvecLooserBracket("du tournoi avec looser bracket",team,nbTeam);
     //tournoiSuisse("du tournoi avec looser bracket",team,nbTeam,1);
     return 0;
