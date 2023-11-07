@@ -35,7 +35,7 @@ vector <int> donneEquipes(unsigned nbTeam){
     return team;
 }
 
-void tournoiSansBracketLooser(string typeTournoi, vector <int> team, unsigned nbTeam){
+void tournoiSansLooserBracket(string typeTournoi, vector <int> team, unsigned nbTeam){
     if (estUnePuissanceDe2(nbTeam) == -1) cout << "refaite les équipes" << endl;
     else {
         int round = 1;
@@ -82,16 +82,64 @@ void tournoiAvecLooserBracket(string typeTournoi, vector <int> team, unsigned nb
             afficheVector(team);
             afficheVector(team2);
         }
-        tournoiSansBracketLooser("du winner bracket",team,nbTeam/2);
-        tournoiSansBracketLooser("du looser bracket",team2,nbTeam/2);
+        tournoiSansLooserBracket("du winner bracket",team,nbTeam/2);
+        tournoiSansLooserBracket("du looser bracket",team2,nbTeam/2);
+        cout << "les vainqueurs " << typeTournoi << " sont " << team[0] << " et " << team2[0] << endl;
     }
 }
+
+void triScoreTeam(vector <int> team, vector <int> score){
+    int a = 0;
+    size_t cpt = 0;
+    while (cpt < team.size()){
+        for (size_t i = 0 ; i < team.size() ; ++i){
+            if (score[i] > score[i + 1]){
+                a = score[i];
+                score[i] = score[i + 1];
+                score[i + 1] = a;
+                a = team[i];
+                team[i] = team[i + 1];
+                team[i + 1] = a;
+                cpt = 0;
+            }
+            else ++cpt;
+        }
+    }
+}
+
+void tournoiSuisse(string typeTournoi, vector <int> team, unsigned nbTeam, unsigned nbRound){
+    unsigned combat = 1;
+    vector <int> score;
+    for (unsigned i = 0 ; i <= nbTeam ; ++i){
+        score.push_back(0);
+    }
+    for (int j = 0 ; j < nbRound ; ++j){
+        for (size_t i = 0 ; i < team.size() - 1; ++i){
+            cout << "combat " << combat << endl;
+            if (leJ1AGagne(/*team[0],team[1]*/)) {
+                cout << team[0 + i] << " gagne" << endl;
+                ++score[i];
+                }
+            else{
+                cout << team[1 + i] << " gagne" << endl;
+                ++score[i + 1];
+            }
+            afficheVector(team);
+            afficheVector(score);
+        }
+        triScoreTeam(team, score);
+        afficheVector(team);
+        afficheVector(score);
+    }
+}
+
 
 int main(){
     //cout << "Hello World!" << endl;
     unsigned nbTeam = 16;
     vector <int> team = donneEquipes(nbTeam);
-    tournoiSansBracketLooser("du tournoi sans looser bracket",team,nbTeam);
-    tournoiAvecBracketLooser("du tournoi avec looser bracket",team,nbTeam);
+    tournoiSansLooserBracket("du tournoi sans looser bracket",team,nbTeam);
+    tournoiAvecLooserBracket("du tournoi avec looser bracket",team,nbTeam);
+    tournoiSuisse("du tournoi avec looser bracket",team,nbTeam,8);
     return 0;
 }
