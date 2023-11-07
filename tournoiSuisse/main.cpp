@@ -92,7 +92,6 @@ int main(){
     unsigned nbTeam = 16;
     vector <int> team = donneEquipes(nbTeam);
     tournoiSansBracketLooser("du tournoi sans looser bracket",team,nbTeam);
-
-
+    tournoiAvecBracketLooser("du tournoi avec looser bracket",team,nbTeam);
     return 0;
 }
