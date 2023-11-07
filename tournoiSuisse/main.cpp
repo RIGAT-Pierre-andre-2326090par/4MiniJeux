@@ -114,7 +114,7 @@ void tournoiSuisse(string typeTournoi, vector <int> team, unsigned nbTeam, unsig
         score.push_back(0);
     }
     for (int j = 0 ; j < nbRound ; ++j){
-        for (size_t i = 0 ; i < team.size() - 1; i+=2){
+        for (size_t i = 0 ; i < team.size() - 1 ; i+=2){
             cout << "combat " << combat << endl;
             if (leJ1AGagne(/*team[0],team[1]*/)) {
                 cout << team[0 + i] << " gagne" << endl;
