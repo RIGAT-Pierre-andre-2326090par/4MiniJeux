@@ -26,8 +26,9 @@ int main(int seed){
                                    {2, 0, 2, 0, 2, 0, 2, 2, 2, 1}};
 
     //initialisation des variables
+    seed = 0;
     int seedChoix = 0;
-    int choix = seeds[seed][seedChoix];
+    int choix;
     int scoreBot = 0;
     int scoreJoueur = 0;
     int jouer = 0;
