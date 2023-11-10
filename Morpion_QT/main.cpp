@@ -98,7 +98,7 @@ bool rechercheLignePleine(const vector<vector<string>>& tab, const string& pion)
 }
 
 
-int main() {    // Programme principale du jeu.
+bool morpion() {    // Programme principale du jeu.
     struct joueurUn {
         string nom;
         string prenom;
@@ -147,18 +147,18 @@ int main() {    // Programme principale du jeu.
     afficheGrille(tabMorpion);
 
     unsigned i = 0;
-    bool condition = false;
     while (i <= 9) {
-
+        // Tant que le nombre de tour n'a pas atteint 9, le jeu continue.
+        // Chaque joueur va alors poser un pion : s'il parvient à aligner trois pions, il gagne.
 
         cout << "Au tour de " << j1.prenom << " : "
              << endl;
         tabMorpion = placementPion(tabMorpion, j1.pion);
-        condition = rechercheLignePleine(tabMorpion, j1.pion);
         afficheGrille(tabMorpion);
-        if (condition == true) {
+        if (rechercheLignePleine(tabMorpion, j1.pion) == true) {
             cout << j1.prenom << " " << j1.nom << " de l'equipe "
                  << j1.numEquipe << " a gagne la partie ! " << endl;
+            return true;
             break;
         }
         i++;
@@ -167,19 +167,25 @@ int main() {    // Programme principale du jeu.
             cout << "Partie finie, egalite." << endl;
             break;
         }
-        // Si les neufs tours sont joués, alors l'égalité est déclarée
+        // Si les neufs tours sont joués, alors l'égalité est déclarée,
         // nous sortons de la boucle.
 
         cout << "Au tour de " << j2.prenom << " : "
              << endl;
         tabMorpion = placementPion(tabMorpion, j2.pion);
-        condition = rechercheLignePleine(tabMorpion, j1.pion);
         afficheGrille(tabMorpion);
-        if (condition == true) {
+        if ((rechercheLignePleine(tabMorpion, j2.pion) == true)) {
             cout << j2.prenom << " " << j2.nom << " de l'equipe "
                  << j2.numEquipe << " a gagne la partie ! " << endl;
+            return false;
             break;
         }
         i++;
     }
+}
+
+
+int main() {
+    morpion();
+    return 0;
 }
