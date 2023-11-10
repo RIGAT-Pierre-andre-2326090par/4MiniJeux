@@ -26,9 +26,9 @@ vector<vector<string>> placementPion(vector<vector<string>>& tab, const string p
     unsigned i, j;
 
     cout << "Saisir les coordonnees de votre pion entre 0 et 2 :" << endl;
-    cout << "Position sur la ligne : ";
+    cout << "Position x (ordonnees) : ";
     cin >> i;
-    cout << "Position sur la colonne : ";
+    cout << "Position y (abscisses) : ";
     cin >> j;
     // Saisir les coordonnées de notre pion.
 
