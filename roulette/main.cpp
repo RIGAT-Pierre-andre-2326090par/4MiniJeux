@@ -6,8 +6,7 @@ unsigned rouletteCasino(unsigned jetons, unsigned const & seed)
 {
 // Explication du jeu
 
-cout << "Bonjour dans cette roulette, un jeu trés simple pouvant vous faire devenir riche de jetons !! Ou tout perdre... Alors jouez avec parcimonie sinon c'est la pauvreté" << endl
-     << "Voici les règles du jeux. Vous disposez de vos jetons de départ consituant votre argent. Votre but partir avec le jackpot. Durant 10 essaie essayer de gagner le plus d'argent !" << endl
+cout << "Voici les règles du jeux. Vous disposez de vos jetons de départ consituant votre argent. Votre but partir avec le jackpot. Durant 5 essaie essayer de gagner le plus d'argent !" << endl
      << "Maintenant comment gagner ? Il suffit de parier un jetons soit sur un nombre, allant de 0 à 36, si cela tombe juste votre mise est multiplié par 36. Vous pouvez aussi parier sur la parité d'un nombre, si cela tombe juste votre mise qui sera multiplié par 2 !" << endl
      << "Bon courage"
      << endl
@@ -26,7 +25,7 @@ string continuer;
 
 // Boucle de jeu
 srand(seed);
-while (jetons >= 1 && essaie <= 1)
+while (jetons >= 1 && essaie < 5)
 {
     // Nombre alétoire correspondant a la case sur laquelle la bille se trouve
     nombreRoulette = rand()%36;
@@ -54,12 +53,10 @@ while (jetons >= 1 && essaie <= 1)
         {
             jetons += mise*2;
             cout << "Victoire ! Vous avez maintenant " << jetons << endl;
-            ++ essaie;
         }
         else
         {
             cout << "Défaite ! Vous avez maintenant " << jetons << endl;
-            ++ essaie;
         }
 
     }
@@ -74,18 +71,17 @@ while (jetons >= 1 && essaie <= 1)
         }
         while (jetons < mise);
         jetons -= mise;
+        ++ essaie;
         cout << "Quelle chiffre ? " << endl;
         cin >> chiffre;
         if (nombreRoulette == chiffre)
         {
             jetons += mise*36;
-            ++ essaie;
             cout << "Victoire ! Vous avez maintenant " << jetons << endl;
         }
         else
         {
             cout << "Défaite ! Vous avez maintenant " << jetons << endl;
-            ++ essaie;
         }
     }
 }
@@ -95,20 +91,20 @@ while (jetons >= 1 && essaie <= 1)
     return jetons;
 }
 
-void affrontement(unsigned const & equipe1, unsigned const & equipe2)
+void affrontement(unsigned const & equipe1, unsigned const & equipe2, unsigned const & round)
 {
-    unsigned part1 = rouletteCasino(1000,1);
-    unsigned part2 = rouletteCasino(1000,1);
+    unsigned part1 = rouletteCasino(1000,round);
+    unsigned part2 = rouletteCasino(1000,round);
     if (part1 > part2)
         cout << "Victoire de l'equipe " << equipe1 << endl;
     else
         cout << "Victoire de l'equipe " << equipe2 << endl;
 }
 
+
+
 int main()
 {
-    affrontement(1,2);
+    return 0;
 }
-
-
 
