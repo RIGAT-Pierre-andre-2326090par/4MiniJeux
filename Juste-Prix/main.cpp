@@ -3,7 +3,7 @@
 using namespace std;
 #include <iostream>
 
-void justePrixEtEquipe(const unsigned& seed) {
+bool justePrixEtEquipe(const unsigned& seed) {
     cout << "Essayer de trouver le juste prix." << endl;
     cout << "Le but est ausi d'essayer de faire le moins d'essaie." << endl;
     cout << "Bonne chance !" << endl;
@@ -66,9 +66,11 @@ void justePrixEtEquipe(const unsigned& seed) {
 
     if (cpt1 < cpt2) {
         cout << "C'est l'equipe " << Equipe1 << " qui a gagner avec " << cpt1 << " essaie comparer a " << cpt2 <<" essaie pour l'equipe " << Equipe2 << endl;
+        return true;
     }
     else if (cpt2 < cpt1) {
         cout << "C'est l'equipe " << Equipe2 << " qui a gagner avec " << cpt2 << " essaie comparer a " << cpt1 <<" esaaie pour l'equipe " << Equipe1 << endl;
+        return false;
     }
 }
 int main()
