@@ -14,7 +14,7 @@ int main(int seed){
             "les ciseaux découpe la feuille" << endl <<
             "marquer " << points << " points avant votre adversaire" << endl;
 
-    vector <vector <int>> seeds = {{1, 1, 2, 1, 2, 0, 0, 2, 2, 2},
+    /*vector <vector <int>> seeds = {{1, 1, 2, 1, 2, 0, 0, 2, 2, 2},
                                    {2, 2, 1, 0, 2, 0, 0, 0, 2, 1},
                                    {2, 0, 1, 0, 2, 2, 2, 0, 2, 2},
                                    {2, 0, 1, 2, 1, 0, 2, 1, 1, 0},
@@ -23,10 +23,10 @@ int main(int seed){
                                    {1, 1, 2, 2, 0, 1, 2, 2, 0, 1},
                                    {1, 2, 0, 0, 2, 1, 2, 2, 2, 0},
                                    {0, 1, 2, 1, 2, 1, 2, 0, 1, 1},
-                                   {2, 0, 2, 0, 2, 0, 2, 2, 2, 1}};
+                                   {2, 0, 2, 0, 2, 0, 2, 2, 2, 1}};*/
 
     //initialisation des variables
-    seed = 0;
+    seed = ;
     int seedChoix = 0;
     int choix;
     int scoreBot = 0;
