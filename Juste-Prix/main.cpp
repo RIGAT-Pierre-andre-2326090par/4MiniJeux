@@ -1,21 +1,14 @@
 #include <iostream>
+
 using namespace std;
 
-
-void justePrixEtEquipe() {
+bool justePrix() {
     cout << "Essayer de trouver le juste prix." << endl;
     cout << "Le but est ausi d'essayer de faire le moins d'essaie." << endl;
     cout << "Bonne chance !" << endl;
     string Equipe1, Equipe2;
     int valeuratrouver = 0;
-    cout << "Qui sont les 2 equipes qui s'affronte ?" << endl;
-    cout << "1er equipe :" << endl;
-    cin >> Equipe1;
-    cout << "2nd equipe :" << endl;
-    cin >> Equipe2;
-    string Equipe0;
-    cout << " Qui commence ?" << endl;
-    cin >> Equipe0;
+    string Equipe0 = Equipe1;
     int cpt1 = 0;
     int cpt2 = 0;
     bool continuer = true;
@@ -85,8 +78,10 @@ void justePrixEtEquipe() {
     }
     if (cpt1 < cpt2) {
         cout << "C'est l'equipe " << Equipe2 << "qui a gagner avec " << cpt2 << "essaie !" << endl;
+        return false;
     }
     else if (cpt2 < cpt1) {
         cout << "C'est l'equipe " << Equipe1 << "qui a gagner avec " << cpt1 << "essaie !" << endl;
+        return true;
     }
 }

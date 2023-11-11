@@ -95,19 +95,24 @@ while (jetons >= 1 && essaie <= 1)
     return jetons;
 }
 
-void affrontement(unsigned const & equipe1, unsigned const & equipe2)
+bool affrontement(unsigned const & equipe1, unsigned const & equipe2, unsigned const & round)
 {
-    unsigned part1 = rouletteCasino(1000,1);
-    unsigned part2 = rouletteCasino(1000,1);
-    if (part1 > part2)
+    unsigned part1 = rouletteCasino(1000,round);
+    unsigned part2 = rouletteCasino(1000,round);
+    if (part1 > part2){
         cout << "Victoire de l'equipe " << equipe1 << endl;
-    else
+        return true;
+    }
+    else{
         cout << "Victoire de l'equipe " << equipe2 << endl;
+        return false;
+    }
 }
 
 int main()
 {
-    affrontement(1,2);
+    unsigned round = 1;
+    cout << affrontement(1,2,round) << endl;
 }
 
 

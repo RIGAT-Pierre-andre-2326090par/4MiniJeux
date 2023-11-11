@@ -2,10 +2,9 @@
 
 using namespace std;
 
-const int points = 3;
-
-bool pfc(/* */unsigned seed){
+bool pfc(unsigned seed){
     srand(seed);
+    const unsigned points = 3;
 
     //pavé qui explique les règles
     cout << "voici les règles du pierre-feuille-ciseaux :" << endl <<
@@ -22,8 +21,9 @@ bool pfc(/* */unsigned seed){
 
     //la partie commence
     while (scoreJoueur < points & scoreJoueur2 < points){
-        cout << "joueur 1 : pierre, feuille ou ciseaux ?(0/1/2)" << endl;
-        cin >> jouer;
+        //cout << "joueur 1 : pierre, feuille ou ciseaux ?(0/1/2)" << endl;
+        //cin >> jouer;
+        jouer =  0 + rand()%2;
         cout << "joueur 2 : pierre, feuille ou ciseaux ?(0/1/2)" << endl;
         cin >> jouer2;
         if (jouer == 0){

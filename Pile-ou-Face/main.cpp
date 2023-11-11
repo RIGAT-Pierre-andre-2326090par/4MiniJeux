@@ -2,7 +2,7 @@
 #include <cstdlib>
 using namespace std;
 
-int main()
+bool pileOuFace()
 {
 
     cout << "Bonjour vous voulez tenter votre chance pour pile ou face" << endl;
@@ -72,4 +72,8 @@ int main()
 
     }
     system("cls");
+}
+
+int main(){
+    cout << pileOuFace() << endl;
 }

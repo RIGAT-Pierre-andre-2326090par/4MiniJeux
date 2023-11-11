@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-#include <math.h>
 
 using namespace std;
 
@@ -8,13 +7,6 @@ bool leJ1AGagne(/*int team1, int team2*/){
     //return jeu(team1,team2);
     int a = 0 + rand()%2;
     return (a == 0);
-}
-
-int estUnePuissanceDe2(int nb){
-    for (int i = 0 ; i <= 100 ; ++i){
-        if (nb == pow(2,i)) return i;
-    }
-    return 0;
 }
 
 void afficheVector(vector <int> vec){
@@ -161,13 +153,17 @@ int main(){
     srand(time(NULL));
     vector <int> team;
     donneEquipes(18,team);
-    afficheVector(team);
-    tournoiSansLooserBracket("du tournoi sans looser bracket",team);
-    donneEquipes(18,team);
-    tournoiAvecLooserBracket("du tournoi avec looser bracket",team);
+    //afficheVector(team);
+    //tournoiSansLooserBracket("du tournoi sans looser bracket",team);
+    //donneEquipes(18,team);
+    //tournoiAvecLooserBracket("du tournoi avec looser bracket",team);
     //donneEquipes(18,team);
     //tournoiChampionnat("du championnat",team);
     //donneEquipes(18,team);
     //tournoiSuisse("du tournoi suisse",team,8);
+    /*for (unsigned i = 0 ; i < 100 ; ++i){
+        int a = 0 + rand()%3;
+        cout << a << endl;
+    }*/
     return 0;
 }

@@ -97,7 +97,7 @@ bool rechercheLignePleine(const vector<vector<string>>& tab, const string& pion)
 }
 
 
-int main() {    // Programme principale du jeu.
+bool morpion() {    // Programme principale du jeu.
     struct joueurUn {
         string nom;
         string prenom;
@@ -145,8 +145,6 @@ int main() {    // Programme principale du jeu.
     unsigned i = 0;
     bool condition = false;
     while (i <= 9) {
-
-
         cout << "Au tour de " << j1.prenom << " : "
              << endl;
         tabMorpion = placementPion(tabMorpion, j1.pion);
@@ -155,6 +153,7 @@ int main() {    // Programme principale du jeu.
         if (condition == true) {
             cout << j1.prenom << " " << j1.nom << " de l'equipe "
                  << j1.numEquipe << " a gagne la partie ! " << endl;
+            return true;
             break;
         }
         i++;
@@ -174,8 +173,13 @@ int main() {    // Programme principale du jeu.
         if (condition == true) {
             cout << j2.prenom << " " << j2.nom << " de l'equipe "
                  << j2.numEquipe << " a gagne la partie ! " << endl;
+            return false;
             break;
         }
         i++;
     }
+}
+
+int main(){
+    cout << morpion() << endl;
 }
