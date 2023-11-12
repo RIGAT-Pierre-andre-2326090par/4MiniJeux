@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 11.0.3, 2023-11-11T11:00:54. -->
+<!-- Written by QtCreator 11.0.3, 2023-11-12T17:23:30. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -243,6 +243,7 @@
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseTerminal">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/m24/Documents/GitHub/4MiniJeux/projet_finaux/build-projet_finaux-Desktop_Qt_6_3_2_GCC_64bit-Debug</value>
    </valuemap>
    <value type="qlonglong" key="ProjectExplorer.Target.RunConfigurationCount">1</value>

@@ -4,7 +4,7 @@ using namespace std;
 
 const int points = 3;
 
-bool pfc(/* */unsigned seed){
+void pfc(/* */unsigned seed){
     srand(seed);
 
     //pavé qui explique les règles
@@ -15,10 +15,10 @@ bool pfc(/* */unsigned seed){
         "marquer " << points << " points avant votre adversaire" << endl;
 
     //initialisation des variables
-    int scoreJoueur = 0;
-    int scoreJoueur2 = 0;
-    int jouer = 0;
-    int jouer2 = 0;
+    unsigned scoreJoueur = 0;
+    unsigned scoreJoueur2 = 0;
+    unsigned jouer = 0;
+    unsigned jouer2 = 0;
 
     //la partie commence
     while (scoreJoueur < points & scoreJoueur2 < points){
@@ -31,29 +31,29 @@ bool pfc(/* */unsigned seed){
                 cout << "pierre contre pierre, égalité" << endl;
             }
             else if (jouer2 == 1){
-                cout << "pierre contre feuille, le joueur gagne" << endl;
+                cout << "pierre contre feuille, le joueur 1 gagne" << endl;
                 ++scoreJoueur;}
             else{
-                cout << "pierre contre ciseaux, le bot gagne" << endl;
+                cout << "pierre contre ciseaux, le joueur 2 gagne" << endl;
                 ++scoreJoueur2;}
         }
         else if (jouer == 1){
             if (jouer2 == 0){
-                cout << "feuille contre pierre, le bot gagne" << endl;
+                cout << "feuille contre pierre, le joueur 2 gagne" << endl;
                 ++scoreJoueur2;}
             else if (jouer2 == 1){
                 cout << "feuille contre feuille, égalité" << endl;
             }
             else{
-                cout << "feuille contre ciseaux, le joueur gagne" << endl;
+                cout << "feuille contre ciseaux, le joueur 1 gagne" << endl;
                 ++scoreJoueur;}
         }
         else{
             if(jouer2 == 0){
-                cout << "ciseaux contre pierre, le joueur gagne" << endl;
+                cout << "ciseaux contre pierre, le joueur 1 gagne" << endl;
                 ++scoreJoueur;}
             else if (jouer2 == 1){
-                cout << "ciseaux contre feuille, le bot gagne" << endl;
+                cout << "ciseaux contre feuille, le joueur 2 gagne" << endl;
                 ++scoreJoueur2;}
             else{
                 cout << "ciseaux contre ciseaux, égalité" << endl;
