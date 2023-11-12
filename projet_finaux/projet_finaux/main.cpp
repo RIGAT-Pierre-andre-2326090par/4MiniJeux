@@ -567,11 +567,11 @@ void tournoiSansLooserBracket(string typeTournoi, vector <vector <joueur>> & tea
             cout << "combat " << combat
                  << ": l'équipe n°" << team[i + swith][0].numEquipe << " VS l'équipe n°" << team[i + swith + 1][0].numEquipe << endl;
             if (leJ1AGagne(jeu, round)){
-                cout << "l'équipe n°" << 0 + i + swith + 1 << " gagne" << endl;
+                cout << "l'équipe n°" << team[i + swith][0].numEquipe << " gagne" << endl;
                 team.erase(team.begin() + i + 1 + swith);
             }
             else{
-                cout << "l'équipe n°" << 1 + i + swith + 1 << " gagne" << endl;
+                cout << "l'équipe n°" << team[i + swith + 1][0].numEquipe << " gagne" << endl;
                 team.erase(team.begin() + i + swith);
             }
             ++combat;
@@ -590,12 +590,12 @@ void tournoiAvecLooserBracket(string typeTournoi, vector <vector <joueur>> team,
     for (size_t i = 0 ; i < team.size() - 1; ++i){
         cout << "combat " << combat << ": l'équipe n°" << team[i][0].numEquipe << " VS l'équipe n°" << team[i + 1][0].numEquipe << endl;
         if (leJ1AGagne(jeu, 0)) {
-            cout << "l'équipe n°" << 0 + i + 1 << " gagne" << endl;
+            cout << "l'équipe n°" << team[i][0].numEquipe << " gagne" << endl;
             team2.push_back(team[i + 1]);
             team.erase(team.begin() + i + 1);
         }
         else{
-            cout << "l'équipe n°" << 1 + i << " gagne" << endl;
+            cout << "l'équipe n°" << team[i + 1][0].numEquipe << " gagne" << endl;
             team2.push_back(team[i]);
             team.erase(team.begin() + i);
         }
@@ -640,12 +640,12 @@ void tournoiChampionnat(string typeTournoi, vector <vector <joueur>> team, unsig
         for (unsigned j = i + 1  ; j < nbTeam ; ++j){
             cout << "combat " << combat << " : l'équipe n°" << team[i][0].numEquipe << " VS l'équipe n°" << team[j][0].numEquipe << endl;
             if (leJ1AGagne(jeu, i)){
-                cout << team[i][0].numEquipe << " a gagné" << endl;
-                    ++score[i];
+                cout << "l'équipe n°" << team[i][0].numEquipe << " gagne" << endl;
+                ++score[i];
             }
             else{
-                cout << team[j][0].numEquipe << " a gagné" << endl;
-                    ++score[j];
+                cout << "l'équipe n°" << team[j][0].numEquipe << " gagne" << endl;
+                ++score[j];
             }
         }
     }
@@ -665,11 +665,11 @@ void tournoiSuisse(string typeTournoi, vector <vector <joueur>> team, unsigned n
         for (size_t i = 0 ; i < team.size() - 1 ; i+=2){
             cout << "combat " << combat << ": " << team[i + swith][0].numEquipe << " VS " << team[i + 1 + swith][0].numEquipe << endl;
             if (leJ1AGagne(jeu, round)) {
-                cout << team[i + swith][0].numEquipe << " gagne" << endl;
+                cout << "l'équipe n°" << team[i + swith][0].numEquipe << " gagne" << endl;
                 ++score[i + swith];
             }
             else{
-                cout << team[i + 1 + swith][0].numEquipe << " gagne" << endl;
+                cout << "l'équipe n°" << team[i + swith + 1][0].numEquipe << " gagne" << endl;
                 ++score[i + 1 + swith];
             }
             ++combat;
