@@ -493,6 +493,7 @@ string litUneString (){
     string uneChaine;
     while (true){
         getline (cin, uneChaine);
+        if (!cin) break;
     }
     return uneChaine;
 }
@@ -501,6 +502,7 @@ int litUnEntier (){
     string uneChaine;
     while (true){
         getline (cin, uneChaine);
+        if (!cin) break;
     }
     return stoi(uneChaine);
 }
@@ -684,7 +686,7 @@ void tournoiSuisse(string typeTournoi, vector <vector <joueur>> team, unsigned n
 int main(){
     //cout << "Hello World!" << endl;
     vector <vector <joueur>> team;
-    unsigned jeu = 1;
+    unsigned jeu = 4;
     donneEquipe(team);
     afficheTeam(team);
     tournoiSansLooserBracket("du tournoi sans looser bracket",team,jeu);
