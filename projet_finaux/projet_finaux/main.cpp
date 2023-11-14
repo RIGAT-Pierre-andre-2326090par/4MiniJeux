@@ -706,12 +706,13 @@ void tournoiSuisse(string typeTournoi, vector <vector <joueur>> team, unsigned n
 int main(){
     //cout << "Hello World!" << endl;
     vector <vector <joueur>> team(18);
-    unsigned jeu = 4;
+    unsigned jeu = 1;
+    unsigned seed = 0;
     donneEquipe(team);
     afficheTeam(team);
     //tournoiSansLooserBracket("du tournoi sans looser bracket",team,jeu);
     //tournoiAvecLooserBracket("du tournoi avec looser bracket",team,jeu);
-    tournoiChampionnat("du championnat",team,jeu);
+    //tournoiChampionnat("du championnat",team,jeu);
     //tournoiSuisse("du tournoi suisse",team,8,jeu);
     return 0;
 }
