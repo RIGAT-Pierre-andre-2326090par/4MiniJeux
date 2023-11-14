@@ -623,7 +623,8 @@ void tournoiSansLooserBracket(string typeTournoi, vector <vector <joueur>> & tea
         if (team.size()%2 == 0) swith = 0 ;
         else swith = (swith + 1)%2;
     }
-    cout << "le vainqueur " << typeTournoi << " est l'équipe n°" << team[0][0].numEquipe << endl;
+    //cout << "le vainqueur " << typeTournoi << " est l'équipe n°" << team[0][0].numEquipe << endl;
+    cout << "c'est l'equipe " << team[0][0].numEquipe << " qui a gagne";
 }
 
 void tournoiAvecLooserBracket(string typeTournoi, vector <vector <joueur>> team, unsigned jeu, unsigned seed){
@@ -645,11 +646,12 @@ void tournoiAvecLooserBracket(string typeTournoi, vector <vector <joueur>> team,
         afficheNumTeam(team);
         afficheNumTeam(team2);
     }
-    tournoiSansLooserBracket("du winner bracket",team,jeu);
-    tournoiSansLooserBracket("du looser bracket",team2,jeu);
+    tournoiSansLooserBracket("du winner bracket",team,jeu,seed);
+    tournoiSansLooserBracket("du looser bracket",team2,jeu,seed);
     team.push_back(team2[0]);
-    tournoiSansLooserBracket(typeTournoi,team,jeu);
-    cout << "les vainqueurs " << typeTournoi << " sont l'équipe n°" << team[0][0].numEquipe << endl;
+    tournoiSansLooserBracket(typeTournoi,team,jeu,seed);
+    //cout << "les vainqueurs " << typeTournoi << " sont l'équipe n°" << team[0][0].numEquipe << endl;
+    cout << "c'est l'equipe " << team[0][0].numEquipe << " qui a gagne";
 }
 
 void tournoiChampionnat(string typeTournoi, vector <vector <joueur>> team, unsigned jeu, unsigned seed){
@@ -672,7 +674,8 @@ void tournoiChampionnat(string typeTournoi, vector <vector <joueur>> team, unsig
         }
     }
     triScoreTeam(team,score);
-    cout << "le vainqueur " << typeTournoi << " est " << team[0][0].numEquipe << endl;
+    //cout << "le vainqueur " << typeTournoi << " est " << team[0][0].numEquipe << endl;
+    cout << "c'est l'equipe " << team[0][0].numEquipe << " qui a gagne";
 }
 
 void tournoiSuisse(string typeTournoi, vector <vector <joueur>> team, unsigned nbRound, unsigned jeu, unsigned seed){
@@ -700,7 +703,8 @@ void tournoiSuisse(string typeTournoi, vector <vector <joueur>> team, unsigned n
         triScoreTeam(team, score);
         ++round;
     }
-    cout << "le vainqueur " << typeTournoi << " est " << team[0][0].numEquipe << endl;
+    //cout << "le vainqueur " << typeTournoi << " est " <<  << endl;
+    cout << "c'est l'equipe " << team[0][0].numEquipe << " qui a gagne";
 }
 
 int main(){
