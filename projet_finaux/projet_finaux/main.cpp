@@ -712,7 +712,7 @@ int main(){
     vector <vector <joueur>> team(18);
     unsigned jeu = 1;
     unsigned combat = 1;
-    unsigned seed = 1;
+    unsigned seed = 0;
     donneEquipe(team);
     //afficheTeam(team);
     if (combat == 1) tournoiSansLooserBracket("du tournoi sans looser bracket",team,jeu,seed);
