@@ -57,7 +57,7 @@ bool justePrix(unsigned seed) {
         //cout << "C'est l'equipe " << Equipe2 << "qui a gagner avec " << cpt2 << "essaie !" << endl;
         return false;
     }
-    else{
+    else if (cpt1 > cpt2){
         return true;
     }
 }
@@ -588,8 +588,8 @@ void triScoreTeam(vector <vector <joueur>> & team, vector <int> & score){
             }
         }
     }
-    //afficheNumTeam(team);
-    //afficheVector(score);
+    afficheNumTeam(team);
+    afficheVector(score);
 }
 
 void defScore(vector <vector <joueur>> & team, vector <int> & score){
@@ -604,41 +604,41 @@ void tournoiSansLooserBracket(string typeTournoi, vector <vector <joueur>> & tea
     unsigned round = 1;
     unsigned combat = 1;
     while (team.size() > 1){
-        //cout << "round " << round << ", " << swith << endl;
+        cout << "round " << round << ", " << swith << endl;
         for (size_t i = 0 ; i < team.size() - 1; ++i){
-            //cout << "combat " << combat
-                 //<< ": l'équipe n°" << team[i + swith][0].numEquipe << " VS l'équipe n°" << team[i + swith + 1][0].numEquipe << endl;
+            cout << "combat " << combat
+                 << ": l'équipe n°" << team[i + swith][0].numEquipe << " VS l'équipe n°" << team[i + swith + 1][0].numEquipe << endl;
             if (leJ1AGagne(jeu, combat + seed)){
-                //cout << "l'équipe n°" << team[i + swith][0].numEquipe << " gagne" << endl;
+                cout << "l'équipe n°" << team[i + swith][0].numEquipe << " gagne" << endl;
                 team.erase(team.begin() + i + 1 + swith);
             }
             else{
-                //cout << "l'équipe n°" << team[i + swith + 1][0].numEquipe << " gagne" << endl;
+                cout << "l'équipe n°" << team[i + swith + 1][0].numEquipe << " gagne" << endl;
                 team.erase(team.begin() + i + swith);
             }
             ++combat;
-            //afficheNumTeam(team);
+            afficheNumTeam(team);
         }
         ++round;
         if (team.size()%2 == 0) swith = 0 ;
         else swith = (swith + 1)%2;
     }
-    //cout << "le vainqueur " << typeTournoi << " est l'équipe n°" << team[0][0].numEquipe << endl;
-    cout << "c'est l'equipe " << team[0][0].numEquipe << " qui a gagne";
+    cout << "le vainqueur " << typeTournoi << " est l'équipe n°" << team[0][0].numEquipe << endl;
+    //cout << "c'est l'equipe " << team[0][0].numEquipe << " qui a gagne" << endl;
 }
 
 void tournoiAvecLooserBracket(string typeTournoi, vector <vector <joueur>> team, unsigned jeu, unsigned seed){
     unsigned combat = 1;
     vector <vector <joueur>> team2;
     for (size_t i = 0 ; i < team.size() - 1; ++i){
-        //cout << "combat " << combat << ": l'équipe n°" << team[i][0].numEquipe << " VS l'équipe n°" << team[i + 1][0].numEquipe << endl;
+        cout << "combat " << combat << ": l'équipe n°" << team[i][0].numEquipe << " VS l'équipe n°" << team[i + 1][0].numEquipe << endl;
         if (leJ1AGagne(jeu, combat + seed)) {
-            //cout << "l'équipe n°" << team[i][0].numEquipe << " gagne" << endl;
+            cout << "l'équipe n°" << team[i][0].numEquipe << " gagne" << endl;
             team2.push_back(team[i + 1]);
             team.erase(team.begin() + i + 1);
         }
         else{
-            //cout << "l'équipe n°" << team[i + 1][0].numEquipe << " gagne" << endl;
+            cout << "l'équipe n°" << team[i + 1][0].numEquipe << " gagne" << endl;
             team2.push_back(team[i]);
             team.erase(team.begin() + i);
         }
@@ -650,8 +650,8 @@ void tournoiAvecLooserBracket(string typeTournoi, vector <vector <joueur>> team,
     tournoiSansLooserBracket("du looser bracket",team2,jeu,seed);
     team.push_back(team2[0]);
     tournoiSansLooserBracket(typeTournoi,team,jeu,seed);
-    //cout << "les vainqueurs " << typeTournoi << " sont l'équipe n°" << team[0][0].numEquipe << endl;
-    cout << "c'est l'equipe " << team[0][0].numEquipe << " qui a gagne";
+    cout << "les vainqueurs " << typeTournoi << " sont l'équipe n°" << team[0][0].numEquipe << endl;
+    //cout << "c'est l'equipe " << team[0][0].numEquipe << " qui a gagne" << endl;
 }
 
 void tournoiChampionnat(string typeTournoi, vector <vector <joueur>> team, unsigned jeu, unsigned seed){
@@ -661,21 +661,21 @@ void tournoiChampionnat(string typeTournoi, vector <vector <joueur>> team, unsig
     defScore(team,score);
     for (unsigned i = 0 ; i < nbTeam ; ++i){
         for (unsigned j = i + 1  ; j < nbTeam ; ++j){
-            //cout << "combat " << combat << " : l'équipe n°" << team[i][0].numEquipe << " VS l'équipe n°" << team[j][0].numEquipe << endl;
+            cout << "combat " << combat << " : l'équipe n°" << team[i][0].numEquipe << " VS l'équipe n°" << team[j][0].numEquipe << endl;
             if (leJ1AGagne(jeu, combat + seed)){
-                //cout << "l'équipe n°" << team[i][0].numEquipe << " gagne" << endl;
+                cout << "l'équipe n°" << team[i][0].numEquipe << " gagne" << endl;
                 ++score[i];
             }
             else{
-                //cout << "l'équipe n°" << team[j][0].numEquipe << " gagne" << endl;
+                cout << "l'équipe n°" << team[j][0].numEquipe << " gagne" << endl;
                 ++score[j];
             }
             ++combat;
         }
     }
     triScoreTeam(team,score);
-    //cout << "le vainqueur " << typeTournoi << " est " << team[0][0].numEquipe << endl;
-    cout << "c'est l'equipe " << team[0][0].numEquipe << " qui a gagne";
+    cout << "le vainqueur " << typeTournoi << " est " << team[0][0].numEquipe << endl;
+    //cout << "c'est l'equipe " << team[0][0].numEquipe << " qui a gagne" << endl;
 }
 
 void tournoiSuisse(string typeTournoi, vector <vector <joueur>> team, unsigned nbRound, unsigned jeu, unsigned seed){
@@ -686,15 +686,15 @@ void tournoiSuisse(string typeTournoi, vector <vector <joueur>> team, unsigned n
     vector <int> score;
     defScore(team,score);
     for (unsigned j = 0 ; j < nbRound ; ++j){
-        //cout << "round " << round << endl;
+        cout << "round " << round << endl;
         for (size_t i = 0 ; i < team.size() - 1 ; i+=2){
-            //cout << "combat " << combat << ": " << team[i + swith][0].numEquipe << " VS " << team[i + 1 + swith][0].numEquipe << endl;
+            cout << "combat " << combat << ": " << team[i + swith][0].numEquipe << " VS " << team[i + 1 + swith][0].numEquipe << endl;
             if (leJ1AGagne(jeu, combat + seed)) {
-                //cout << "l'équipe n°" << team[i + swith][0].numEquipe << " gagne" << endl;
+                cout << "l'équipe n°" << team[i + swith][0].numEquipe << " gagne" << endl;
                 ++score[i + swith];
             }
             else{
-                //cout << "l'équipe n°" << team[i + swith + 1][0].numEquipe << " gagne" << endl;
+                cout << "l'équipe n°" << team[i + swith + 1][0].numEquipe << " gagne" << endl;
                 ++score[i + 1 + swith];
             }
             ++combat;
@@ -703,8 +703,8 @@ void tournoiSuisse(string typeTournoi, vector <vector <joueur>> team, unsigned n
         triScoreTeam(team, score);
         ++round;
     }
-    //cout << "le vainqueur " << typeTournoi << " est " <<  << endl;
-    cout << "c'est l'equipe " << team[0][0].numEquipe << " qui a gagne";
+    cout << "le vainqueur " << typeTournoi << " est " << team[0][0].numEquipe << endl;
+    //cout << "c'est l'equipe " << team[0][0].numEquipe << " qui a gagne" << endl;
 }
 
 int main(){
@@ -714,7 +714,8 @@ int main(){
     unsigned combat = 1;
     unsigned seed = 0;
     donneEquipe(team);
-    //afficheTeam(team);
+    //team.resize(16);
+    afficheTeam(team);
     if (combat == 1) tournoiSansLooserBracket("du tournoi sans looser bracket",team,jeu,seed);
     if (combat == 2) tournoiAvecLooserBracket("du tournoi avec looser bracket",team,jeu,seed);
     if (combat == 3) tournoiChampionnat("du championnat",team,jeu,seed);
