@@ -563,7 +563,6 @@ bool leJ1AGagne(unsigned jeu, unsigned seed){
     }
     default: {
         a = (0 + rand()%2 == 0);
-        break;
     }
     }
     return a;
