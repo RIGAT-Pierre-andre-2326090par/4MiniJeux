@@ -1,0 +1,555 @@
+équipe n°1
+	- ALBANO Coline
+
+	- BENGHERBIA Abderrahmane
+
+	- DAYREK Nawel
+
+	- GORGODIAN Valentin
+
+	- MAALAL Ines
+
+	- RIGAT Pierre-André
+
+	- TURLURE Naël
+
+équipe n°2
+	- ALLASIO Maxime
+
+	- BENKHEDDA Abed El Rahmen
+
+	- DOUCHY Maxime
+
+	- GOUGEON Hugo
+
+	- MAGNAN Lukas
+
+	- RIZZANTE-MADONNA Alexandre
+
+	- TURMO Baptiste
+
+équipe n°3
+	- ALVARES Titouan
+
+	- BENSOLTANE Zakharia
+
+	- EGEA Allan
+
+	- GRAVOILLE Mathieu
+
+	- MARCUS William
+
+	- SALAH Massa
+
+	- VALENTE Hugo
+
+équipe n°4
+	- AMARTI Adam
+
+	- BERTIN Mathéo
+
+	- EL ALMOUSSI Youssef
+
+	- GRIMAUD Estelle
+
+	- MARTY Francois
+
+	- SALENSON Léo
+
+	- VERHILLE Manon
+
+équipe n°5
+	- ANDREU Sarah
+
+	- BLANCHET EDSON
+
+	- EL BOUZIANY LAMRHARI Mohamed
+
+	- GUILLERM Mathis
+
+	- MAYEUR Cédric
+
+	- SAOUD Edib
+
+	- VERNAGUT Titouan
+
+équipe n°6
+	- ARMANI Baptiste
+
+	- BOISDANGHIEN Evan
+
+	- EL KIHAL Ewan
+
+	- GURREA Killian
+
+	- MEHDI Yousra
+
+	- SARRAZIN Valentin
+
+	- ZANE Badiss
+
+équipe n°7
+	- ARNOUX PECOUL Lydian
+
+	- BOUCHAMI Enzo
+
+	- FABRE Alexandre
+
+	- HONG Eric
+
+	- MEHMED Ersan
+
+	- SEBAA Ayrton
+
+équipe n°8
+	- ARSENA Claire
+
+	- BOUDROUMA Adem
+
+	- FARINES Kylian
+
+	- IGOUMNOV Arseny
+
+	- MELIAND Vincent
+
+	- SEBBAK Mehdi
+
+équipe n°9
+	- ATROUN Ryan
+
+	- BOUYEDA Remi
+
+	- FLORIS-MIALHE Axel
+
+	- JINGA Paul
+
+	- MIMOUNI Yanis
+
+	- SENE Pablo
+
+équipe n°10
+	- AVIAS Daphné
+
+	- BUCHMULLER Nassim
+
+	- FOUCHER Mathias
+
+	- KANBOUI Jalil
+
+	- MINIERE Mathias
+
+	- SERRE Lucas
+
+équipe n°11
+	- BACO DAOU Samuel
+
+	- CAMPANALE-BERBON Alexandre
+
+	- FOURNIER Quentin
+
+	- KERBADOU Islem
+
+	- MOUSTAKIMA Azihari
+
+	- SIMON Louis
+
+équipe n°12
+	- BAHI Roudaina
+
+	- CHAMPIEUX Timothé
+
+	- FROMENTIN Félix
+
+	- KRAÏMI Wissem
+
+	- NURDIN Arnaud
+
+	- SOUA Yosri
+
+équipe n°13
+	- BALDONI Jules
+
+	- CHATER Hamza
+
+	- GALLOU Loic
+
+	- LACOMBE Dorian
+
+	- ODERZO Flavio
+
+	- STROPPIANA Damien
+
+équipe n°14
+	- BARBERO Tom
+
+	- CHEBIRA Joud
+
+	- GARCIA Léo
+
+	- LE GUENNEC Thibault
+
+	- PELLET Casimir
+
+	- TAMINE Cyril
+
+équipe n°15
+	- BARCELO Théo
+
+	- CHERQI Ali
+
+	- GARRIGUES Ronan
+
+	- LECUYER Théotime
+
+	- PHILIPON Rémy
+
+	- THELU Nathan
+
+équipe n°16
+	- BARROSO Yelmo Mathias
+
+	- COMBELONGE Enzo
+
+	- GARY Félicité
+
+	- LEROY Noah
+
+	- POGHOSSIAN Mariam
+
+	- THEVENET Antoine
+
+équipe n°17
+	- BELZ Matteo
+
+	- CURT Elien
+
+	- GASTON Baptiste
+
+	- LOËB Dorian
+
+	- RAHAJARISON Anthony
+
+	- TRAN Kevin
+
+équipe n°18
+	- BENDIAF Khairedine
+
+	- DAUBREGE Simon
+
+	- GONÇALVES RODRIGUES Alex
+
+	- LY Yoann
+
+	- RIBBE Jules
+
+	- TRAN Thomas
+
+combat 1 : l'équipe n°1 VS l'équipe n°2
+l'équipe n°2 gagne
+combat 2 : l'équipe n°1 VS l'équipe n°3
+l'équipe n°3 gagne
+combat 3 : l'équipe n°1 VS l'équipe n°4
+l'équipe n°1 gagne
+combat 4 : l'équipe n°1 VS l'équipe n°5
+l'équipe n°1 gagne
+combat 5 : l'équipe n°1 VS l'équipe n°6
+l'équipe n°1 gagne
+combat 6 : l'équipe n°1 VS l'équipe n°7
+l'équipe n°7 gagne
+combat 7 : l'équipe n°1 VS l'équipe n°8
+l'équipe n°8 gagne
+combat 8 : l'équipe n°1 VS l'équipe n°9
+l'équipe n°9 gagne
+combat 9 : l'équipe n°1 VS l'équipe n°10
+l'équipe n°1 gagne
+combat 10 : l'équipe n°1 VS l'équipe n°11
+l'équipe n°11 gagne
+combat 11 : l'équipe n°1 VS l'équipe n°12
+l'équipe n°12 gagne
+combat 12 : l'équipe n°1 VS l'équipe n°13
+l'équipe n°13 gagne
+combat 13 : l'équipe n°1 VS l'équipe n°14
+l'équipe n°14 gagne
+combat 14 : l'équipe n°1 VS l'équipe n°15
+l'équipe n°1 gagne
+combat 15 : l'équipe n°1 VS l'équipe n°16
+l'équipe n°16 gagne
+combat 16 : l'équipe n°1 VS l'équipe n°17
+l'équipe n°1 gagne
+combat 17 : l'équipe n°1 VS l'équipe n°18
+l'équipe n°18 gagne
+combat 18 : l'équipe n°2 VS l'équipe n°3
+l'équipe n°2 gagne
+combat 19 : l'équipe n°2 VS l'équipe n°4
+l'équipe n°4 gagne
+combat 20 : l'équipe n°2 VS l'équipe n°5
+l'équipe n°5 gagne
+combat 21 : l'équipe n°2 VS l'équipe n°6
+l'équipe n°6 gagne
+combat 22 : l'équipe n°2 VS l'équipe n°7
+l'équipe n°2 gagne
+combat 23 : l'équipe n°2 VS l'équipe n°8
+l'équipe n°2 gagne
+combat 24 : l'équipe n°2 VS l'équipe n°9
+l'équipe n°2 gagne
+combat 25 : l'équipe n°2 VS l'équipe n°10
+l'équipe n°2 gagne
+combat 26 : l'équipe n°2 VS l'équipe n°11
+l'équipe n°2 gagne
+combat 27 : l'équipe n°2 VS l'équipe n°12
+l'équipe n°2 gagne
+combat 28 : l'équipe n°2 VS l'équipe n°13
+l'équipe n°13 gagne
+combat 29 : l'équipe n°2 VS l'équipe n°14
+l'équipe n°14 gagne
+combat 30 : l'équipe n°2 VS l'équipe n°15
+l'équipe n°2 gagne
+combat 31 : l'équipe n°2 VS l'équipe n°16
+l'équipe n°2 gagne
+combat 32 : l'équipe n°2 VS l'équipe n°17
+l'équipe n°2 gagne
+combat 33 : l'équipe n°2 VS l'équipe n°18
+l'équipe n°18 gagne
+combat 34 : l'équipe n°3 VS l'équipe n°4
+l'équipe n°4 gagne
+combat 35 : l'équipe n°3 VS l'équipe n°5
+l'équipe n°5 gagne
+combat 36 : l'équipe n°3 VS l'équipe n°6
+l'équipe n°3 gagne
+combat 37 : l'équipe n°3 VS l'équipe n°7
+l'équipe n°3 gagne
+combat 38 : l'équipe n°3 VS l'équipe n°8
+l'équipe n°3 gagne
+combat 39 : l'équipe n°3 VS l'équipe n°9
+l'équipe n°3 gagne
+combat 40 : l'équipe n°3 VS l'équipe n°10
+l'équipe n°10 gagne
+combat 41 : l'équipe n°3 VS l'équipe n°11
+l'équipe n°11 gagne
+combat 42 : l'équipe n°3 VS l'équipe n°12
+l'équipe n°12 gagne
+combat 43 : l'équipe n°3 VS l'équipe n°13
+l'équipe n°13 gagne
+combat 44 : l'équipe n°3 VS l'équipe n°14
+l'équipe n°3 gagne
+combat 45 : l'équipe n°3 VS l'équipe n°15
+l'équipe n°15 gagne
+combat 46 : l'équipe n°3 VS l'équipe n°16
+l'équipe n°16 gagne
+combat 47 : l'équipe n°3 VS l'équipe n°17
+l'équipe n°17 gagne
+combat 48 : l'équipe n°3 VS l'équipe n°18
+l'équipe n°3 gagne
+combat 49 : l'équipe n°4 VS l'équipe n°5
+l'équipe n°4 gagne
+combat 50 : l'équipe n°4 VS l'équipe n°6
+l'équipe n°6 gagne
+combat 51 : l'équipe n°4 VS l'équipe n°7
+l'équipe n°7 gagne
+combat 52 : l'équipe n°4 VS l'équipe n°8
+l'équipe n°8 gagne
+combat 53 : l'équipe n°4 VS l'équipe n°9
+l'équipe n°9 gagne
+combat 54 : l'équipe n°4 VS l'équipe n°10
+l'équipe n°4 gagne
+combat 55 : l'équipe n°4 VS l'équipe n°11
+l'équipe n°4 gagne
+combat 56 : l'équipe n°4 VS l'équipe n°12
+l'équipe n°4 gagne
+combat 57 : l'équipe n°4 VS l'équipe n°13
+l'équipe n°13 gagne
+combat 58 : l'équipe n°4 VS l'équipe n°14
+l'équipe n°14 gagne
+combat 59 : l'équipe n°4 VS l'équipe n°15
+l'équipe n°4 gagne
+combat 60 : l'équipe n°4 VS l'équipe n°16
+l'équipe n°4 gagne
+combat 61 : l'équipe n°4 VS l'équipe n°17
+l'équipe n°4 gagne
+combat 62 : l'équipe n°4 VS l'équipe n°18
+l'équipe n°18 gagne
+combat 63 : l'équipe n°5 VS l'équipe n°6
+l'équipe n°5 gagne
+combat 64 : l'équipe n°5 VS l'équipe n°7
+l'équipe n°7 gagne
+combat 65 : l'équipe n°5 VS l'équipe n°8
+l'équipe n°8 gagne
+combat 66 : l'équipe n°5 VS l'équipe n°9
+l'équipe n°5 gagne
+combat 67 : l'équipe n°5 VS l'équipe n°10
+l'équipe n°5 gagne
+combat 68 : l'équipe n°5 VS l'équipe n°11
+l'équipe n°5 gagne
+combat 69 : l'équipe n°5 VS l'équipe n°12
+l'équipe n°12 gagne
+combat 70 : l'équipe n°5 VS l'équipe n°13
+l'équipe n°5 gagne
+combat 71 : l'équipe n°5 VS l'équipe n°14
+l'équipe n°5 gagne
+combat 72 : l'équipe n°5 VS l'équipe n°15
+l'équipe n°5 gagne
+combat 73 : l'équipe n°5 VS l'équipe n°16
+l'équipe n°5 gagne
+combat 74 : l'équipe n°5 VS l'équipe n°17
+l'équipe n°17 gagne
+combat 75 : l'équipe n°5 VS l'équipe n°18
+l'équipe n°18 gagne
+combat 76 : l'équipe n°6 VS l'équipe n°7
+l'équipe n°6 gagne
+combat 77 : l'équipe n°6 VS l'équipe n°8
+l'équipe n°8 gagne
+combat 78 : l'équipe n°6 VS l'équipe n°9
+l'équipe n°9 gagne
+combat 79 : l'équipe n°6 VS l'équipe n°10
+l'équipe n°10 gagne
+combat 80 : l'équipe n°6 VS l'équipe n°11
+l'équipe n°11 gagne
+combat 81 : l'équipe n°6 VS l'équipe n°12
+l'équipe n°12 gagne
+combat 82 : l'équipe n°6 VS l'équipe n°13
+l'équipe n°13 gagne
+combat 83 : l'équipe n°6 VS l'équipe n°14
+l'équipe n°14 gagne
+combat 84 : l'équipe n°6 VS l'équipe n°15
+l'équipe n°6 gagne
+combat 85 : l'équipe n°6 VS l'équipe n°16
+l'équipe n°6 gagne
+combat 86 : l'équipe n°6 VS l'équipe n°17
+l'équipe n°6 gagne
+combat 87 : l'équipe n°6 VS l'équipe n°18
+l'équipe n°18 gagne
+combat 88 : l'équipe n°7 VS l'équipe n°8
+l'équipe n°8 gagne
+combat 89 : l'équipe n°7 VS l'équipe n°9
+l'équipe n°9 gagne
+combat 90 : l'équipe n°7 VS l'équipe n°10
+l'équipe n°10 gagne
+combat 91 : l'équipe n°7 VS l'équipe n°11
+l'équipe n°7 gagne
+combat 92 : l'équipe n°7 VS l'équipe n°12
+l'équipe n°12 gagne
+combat 93 : l'équipe n°7 VS l'équipe n°13
+l'équipe n°13 gagne
+combat 94 : l'équipe n°7 VS l'équipe n°14
+l'équipe n°14 gagne
+combat 95 : l'équipe n°7 VS l'équipe n°15
+l'équipe n°15 gagne
+combat 96 : l'équipe n°7 VS l'équipe n°16
+l'équipe n°7 gagne
+combat 97 : l'équipe n°7 VS l'équipe n°17
+l'équipe n°7 gagne
+combat 98 : l'équipe n°7 VS l'équipe n°18
+l'équipe n°18 gagne
+combat 99 : l'équipe n°8 VS l'équipe n°9
+l'équipe n°9 gagne
+combat 100 : l'équipe n°8 VS l'équipe n°10
+l'équipe n°8 gagne
+combat 101 : l'équipe n°8 VS l'équipe n°11
+l'équipe n°11 gagne
+combat 102 : l'équipe n°8 VS l'équipe n°12
+l'équipe n°8 gagne
+combat 103 : l'équipe n°8 VS l'équipe n°13
+l'équipe n°13 gagne
+combat 104 : l'équipe n°8 VS l'équipe n°14
+l'équipe n°8 gagne
+combat 105 : l'équipe n°8 VS l'équipe n°15
+l'équipe n°8 gagne
+combat 106 : l'équipe n°8 VS l'équipe n°16
+l'équipe n°16 gagne
+combat 107 : l'équipe n°8 VS l'équipe n°17
+l'équipe n°8 gagne
+combat 108 : l'équipe n°8 VS l'équipe n°18
+l'équipe n°8 gagne
+combat 109 : l'équipe n°9 VS l'équipe n°10
+l'équipe n°9 gagne
+combat 110 : l'équipe n°9 VS l'équipe n°11
+l'équipe n°9 gagne
+combat 111 : l'équipe n°9 VS l'équipe n°12
+l'équipe n°9 gagne
+combat 112 : l'équipe n°9 VS l'équipe n°13
+l'équipe n°9 gagne
+combat 113 : l'équipe n°9 VS l'équipe n°14
+l'équipe n°9 gagne
+combat 114 : l'équipe n°9 VS l'équipe n°15
+l'équipe n°15 gagne
+combat 115 : l'équipe n°9 VS l'équipe n°16
+l'équipe n°16 gagne
+combat 116 : l'équipe n°9 VS l'équipe n°17
+l'équipe n°17 gagne
+combat 117 : l'équipe n°9 VS l'équipe n°18
+l'équipe n°9 gagne
+combat 118 : l'équipe n°10 VS l'équipe n°11
+l'équipe n°10 gagne
+combat 119 : l'équipe n°10 VS l'équipe n°12
+l'équipe n°12 gagne
+combat 120 : l'équipe n°10 VS l'équipe n°13
+l'équipe n°13 gagne
+combat 121 : l'équipe n°10 VS l'équipe n°14
+l'équipe n°14 gagne
+combat 122 : l'équipe n°10 VS l'équipe n°15
+l'équipe n°15 gagne
+combat 123 : l'équipe n°10 VS l'équipe n°16
+l'équipe n°10 gagne
+combat 124 : l'équipe n°10 VS l'équipe n°17
+l'équipe n°17 gagne
+combat 125 : l'équipe n°10 VS l'équipe n°18
+l'équipe n°10 gagne
+combat 126 : l'équipe n°11 VS l'équipe n°12
+l'équipe n°11 gagne
+combat 127 : l'équipe n°11 VS l'équipe n°13
+l'équipe n°11 gagne
+combat 128 : l'équipe n°11 VS l'équipe n°14
+l'équipe n°14 gagne
+combat 129 : l'équipe n°11 VS l'équipe n°15
+l'équipe n°15 gagne
+combat 130 : l'équipe n°11 VS l'équipe n°16
+l'équipe n°11 gagne
+combat 131 : l'équipe n°11 VS l'équipe n°17
+l'équipe n°11 gagne
+combat 132 : l'équipe n°11 VS l'équipe n°18
+l'équipe n°18 gagne
+combat 133 : l'équipe n°12 VS l'équipe n°13
+l'équipe n°12 gagne
+combat 134 : l'équipe n°12 VS l'équipe n°14
+l'équipe n°14 gagne
+combat 135 : l'équipe n°12 VS l'équipe n°15
+l'équipe n°12 gagne
+combat 136 : l'équipe n°12 VS l'équipe n°16
+l'équipe n°12 gagne
+combat 137 : l'équipe n°12 VS l'équipe n°17
+l'équipe n°12 gagne
+combat 138 : l'équipe n°12 VS l'équipe n°18
+l'équipe n°18 gagne
+combat 139 : l'équipe n°13 VS l'équipe n°14
+l'équipe n°14 gagne
+combat 140 : l'équipe n°13 VS l'équipe n°15
+l'équipe n°15 gagne
+combat 141 : l'équipe n°13 VS l'équipe n°16
+l'équipe n°16 gagne
+combat 142 : l'équipe n°13 VS l'équipe n°17
+l'équipe n°13 gagne
+combat 143 : l'équipe n°13 VS l'équipe n°18
+l'équipe n°13 gagne
+combat 144 : l'équipe n°14 VS l'équipe n°15
+l'équipe n°14 gagne
+combat 145 : l'équipe n°14 VS l'équipe n°16
+l'équipe n°14 gagne
+combat 146 : l'équipe n°14 VS l'équipe n°17
+l'équipe n°14 gagne
+combat 147 : l'équipe n°14 VS l'équipe n°18
+l'équipe n°14 gagne
+combat 148 : l'équipe n°15 VS l'équipe n°16
+l'équipe n°16 gagne
+combat 149 : l'équipe n°15 VS l'équipe n°17
+l'équipe n°15 gagne
+combat 150 : l'équipe n°15 VS l'équipe n°18
+l'équipe n°18 gagne
+combat 151 : l'équipe n°16 VS l'équipe n°17
+l'équipe n°16 gagne
+combat 152 : l'équipe n°16 VS l'équipe n°18
+l'équipe n°16 gagne
+combat 153 : l'équipe n°17 VS l'équipe n°18
+l'équipe n°18 gagne
+{14, 2, 8, 9, 5, 12, 13, 18, 4, 11, 16, 3, 15, 1, 6, 7, 10, 17}
+{13, 11, 11, 11, 10, 10, 10, 10, 9, 8, 8, 7, 7, 6, 6, 6, 6, 4}
+le vainqueur du championnat est 14

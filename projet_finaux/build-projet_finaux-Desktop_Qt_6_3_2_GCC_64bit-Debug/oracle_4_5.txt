@@ -1,0 +1,415 @@
+équipe n°1
+	- ALBANO Coline
+
+	- BENGHERBIA Abderrahmane
+
+	- DAYREK Nawel
+
+	- GORGODIAN Valentin
+
+	- MAALAL Ines
+
+	- RIGAT Pierre-André
+
+	- TURLURE Naël
+
+équipe n°2
+	- ALLASIO Maxime
+
+	- BENKHEDDA Abed El Rahmen
+
+	- DOUCHY Maxime
+
+	- GOUGEON Hugo
+
+	- MAGNAN Lukas
+
+	- RIZZANTE-MADONNA Alexandre
+
+	- TURMO Baptiste
+
+équipe n°3
+	- ALVARES Titouan
+
+	- BENSOLTANE Zakharia
+
+	- EGEA Allan
+
+	- GRAVOILLE Mathieu
+
+	- MARCUS William
+
+	- SALAH Massa
+
+	- VALENTE Hugo
+
+équipe n°4
+	- AMARTI Adam
+
+	- BERTIN Mathéo
+
+	- EL ALMOUSSI Youssef
+
+	- GRIMAUD Estelle
+
+	- MARTY Francois
+
+	- SALENSON Léo
+
+	- VERHILLE Manon
+
+équipe n°5
+	- ANDREU Sarah
+
+	- BLANCHET EDSON
+
+	- EL BOUZIANY LAMRHARI Mohamed
+
+	- GUILLERM Mathis
+
+	- MAYEUR Cédric
+
+	- SAOUD Edib
+
+	- VERNAGUT Titouan
+
+équipe n°6
+	- ARMANI Baptiste
+
+	- BOISDANGHIEN Evan
+
+	- EL KIHAL Ewan
+
+	- GURREA Killian
+
+	- MEHDI Yousra
+
+	- SARRAZIN Valentin
+
+	- ZANE Badiss
+
+équipe n°7
+	- ARNOUX PECOUL Lydian
+
+	- BOUCHAMI Enzo
+
+	- FABRE Alexandre
+
+	- HONG Eric
+
+	- MEHMED Ersan
+
+	- SEBAA Ayrton
+
+équipe n°8
+	- ARSENA Claire
+
+	- BOUDROUMA Adem
+
+	- FARINES Kylian
+
+	- IGOUMNOV Arseny
+
+	- MELIAND Vincent
+
+	- SEBBAK Mehdi
+
+équipe n°9
+	- ATROUN Ryan
+
+	- BOUYEDA Remi
+
+	- FLORIS-MIALHE Axel
+
+	- JINGA Paul
+
+	- MIMOUNI Yanis
+
+	- SENE Pablo
+
+équipe n°10
+	- AVIAS Daphné
+
+	- BUCHMULLER Nassim
+
+	- FOUCHER Mathias
+
+	- KANBOUI Jalil
+
+	- MINIERE Mathias
+
+	- SERRE Lucas
+
+équipe n°11
+	- BACO DAOU Samuel
+
+	- CAMPANALE-BERBON Alexandre
+
+	- FOURNIER Quentin
+
+	- KERBADOU Islem
+
+	- MOUSTAKIMA Azihari
+
+	- SIMON Louis
+
+équipe n°12
+	- BAHI Roudaina
+
+	- CHAMPIEUX Timothé
+
+	- FROMENTIN Félix
+
+	- KRAÏMI Wissem
+
+	- NURDIN Arnaud
+
+	- SOUA Yosri
+
+équipe n°13
+	- BALDONI Jules
+
+	- CHATER Hamza
+
+	- GALLOU Loic
+
+	- LACOMBE Dorian
+
+	- ODERZO Flavio
+
+	- STROPPIANA Damien
+
+équipe n°14
+	- BARBERO Tom
+
+	- CHEBIRA Joud
+
+	- GARCIA Léo
+
+	- LE GUENNEC Thibault
+
+	- PELLET Casimir
+
+	- TAMINE Cyril
+
+équipe n°15
+	- BARCELO Théo
+
+	- CHERQI Ali
+
+	- GARRIGUES Ronan
+
+	- LECUYER Théotime
+
+	- PHILIPON Rémy
+
+	- THELU Nathan
+
+équipe n°16
+	- BARROSO Yelmo Mathias
+
+	- COMBELONGE Enzo
+
+	- GARY Félicité
+
+	- LEROY Noah
+
+	- POGHOSSIAN Mariam
+
+	- THEVENET Antoine
+
+équipe n°17
+	- BELZ Matteo
+
+	- CURT Elien
+
+	- GASTON Baptiste
+
+	- LOËB Dorian
+
+	- RAHAJARISON Anthony
+
+	- TRAN Kevin
+
+équipe n°18
+	- BENDIAF Khairedine
+
+	- DAUBREGE Simon
+
+	- GONÇALVES RODRIGUES Alex
+
+	- LY Yoann
+
+	- RIBBE Jules
+
+	- TRAN Thomas
+
+round 1
+combat 1: 1 VS 2
+l'équipe n°1 gagne
+combat 2: 3 VS 4
+l'équipe n°3 gagne
+combat 3: 5 VS 6
+l'équipe n°6 gagne
+combat 4: 7 VS 8
+l'équipe n°7 gagne
+combat 5: 9 VS 10
+l'équipe n°10 gagne
+combat 6: 11 VS 12
+l'équipe n°12 gagne
+combat 7: 13 VS 14
+l'équipe n°13 gagne
+combat 8: 15 VS 16
+l'équipe n°16 gagne
+combat 9: 17 VS 18
+l'équipe n°17 gagne
+{1, 3, 6, 7, 10, 12, 13, 16, 17, 2, 4, 5, 8, 9, 11, 14, 15, 18}
+{1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+round 2
+combat 10: 1 VS 3
+l'équipe n°3 gagne
+combat 11: 6 VS 7
+l'équipe n°7 gagne
+combat 12: 10 VS 12
+l'équipe n°10 gagne
+combat 13: 13 VS 16
+l'équipe n°16 gagne
+combat 14: 17 VS 2
+l'équipe n°2 gagne
+combat 15: 4 VS 5
+l'équipe n°4 gagne
+combat 16: 8 VS 9
+l'équipe n°8 gagne
+combat 17: 11 VS 14
+l'équipe n°14 gagne
+combat 18: 15 VS 18
+l'équipe n°18 gagne
+{3, 7, 10, 16, 1, 6, 12, 13, 17, 2, 4, 8, 14, 18, 5, 9, 11, 15}
+{2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0}
+round 3
+combat 19: 3 VS 7
+l'équipe n°7 gagne
+combat 20: 10 VS 16
+l'équipe n°10 gagne
+combat 21: 1 VS 6
+l'équipe n°1 gagne
+combat 22: 12 VS 13
+l'équipe n°13 gagne
+combat 23: 17 VS 2
+l'équipe n°17 gagne
+combat 24: 4 VS 8
+l'équipe n°4 gagne
+combat 25: 14 VS 18
+l'équipe n°18 gagne
+combat 26: 5 VS 9
+l'équipe n°5 gagne
+combat 27: 11 VS 15
+l'équipe n°11 gagne
+{7, 10, 3, 16, 1, 13, 17, 4, 18, 6, 12, 2, 8, 14, 5, 11, 9, 15}
+{3, 3, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 0, 0}
+round 4
+combat 28: 7 VS 10
+l'équipe n°7 gagne
+combat 29: 3 VS 16
+l'équipe n°16 gagne
+combat 30: 1 VS 13
+l'équipe n°13 gagne
+combat 31: 17 VS 4
+l'équipe n°17 gagne
+combat 32: 18 VS 6
+l'équipe n°6 gagne
+combat 33: 12 VS 2
+l'équipe n°12 gagne
+combat 34: 8 VS 14
+l'équipe n°8 gagne
+combat 35: 5 VS 11
+l'équipe n°11 gagne
+combat 36: 9 VS 15
+l'équipe n°9 gagne
+{7, 10, 16, 13, 17, 3, 1, 4, 18, 6, 12, 8, 11, 2, 14, 5, 9, 15}
+{4, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 0}
+round 5
+combat 37: 7 VS 10
+l'équipe n°10 gagne
+combat 38: 16 VS 13
+l'équipe n°16 gagne
+combat 39: 17 VS 3
+l'équipe n°3 gagne
+combat 40: 1 VS 4
+l'équipe n°4 gagne
+combat 41: 18 VS 6
+l'équipe n°18 gagne
+combat 42: 12 VS 8
+l'équipe n°12 gagne
+combat 43: 11 VS 2
+l'équipe n°11 gagne
+combat 44: 14 VS 5
+l'équipe n°5 gagne
+combat 45: 9 VS 15
+l'équipe n°9 gagne
+{7, 10, 16, 13, 17, 3, 4, 18, 12, 11, 1, 6, 8, 5, 9, 2, 14, 15}
+{4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 1, 1, 0}
+round 6
+combat 46: 7 VS 10
+l'équipe n°10 gagne
+combat 47: 16 VS 13
+l'équipe n°16 gagne
+combat 48: 17 VS 3
+l'équipe n°17 gagne
+combat 49: 4 VS 18
+l'équipe n°18 gagne
+combat 50: 12 VS 11
+l'équipe n°11 gagne
+combat 51: 1 VS 6
+l'équipe n°1 gagne
+combat 52: 8 VS 5
+l'équipe n°5 gagne
+combat 53: 9 VS 2
+l'équipe n°9 gagne
+combat 54: 14 VS 15
+l'équipe n°15 gagne
+{10, 16, 7, 17, 18, 11, 13, 3, 4, 12, 1, 5, 9, 6, 8, 2, 14, 15}
+{5, 5, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 2, 2, 1, 1, 1}
+round 7
+combat 55: 10 VS 16
+l'équipe n°16 gagne
+combat 56: 7 VS 17
+l'équipe n°7 gagne
+combat 57: 18 VS 11
+l'équipe n°18 gagne
+combat 58: 13 VS 3
+l'équipe n°3 gagne
+combat 59: 4 VS 12
+l'équipe n°12 gagne
+combat 60: 1 VS 5
+l'équipe n°1 gagne
+combat 61: 9 VS 6
+l'équipe n°6 gagne
+combat 62: 8 VS 2
+l'équipe n°2 gagne
+combat 63: 14 VS 15
+l'équipe n°14 gagne
+{16, 10, 7, 18, 17, 11, 3, 12, 1, 13, 4, 5, 9, 6, 8, 2, 14, 15}
+{6, 5, 5, 5, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 2, 2, 2, 1}
+round 8
+combat 64: 16 VS 10
+l'équipe n°16 gagne
+combat 65: 7 VS 18
+l'équipe n°18 gagne
+combat 66: 17 VS 11
+l'équipe n°17 gagne
+combat 67: 3 VS 12
+l'équipe n°12 gagne
+combat 68: 1 VS 13
+l'équipe n°1 gagne
+combat 69: 4 VS 5
+l'équipe n°5 gagne
+combat 70: 9 VS 6
+l'équipe n°9 gagne
+combat 71: 8 VS 2
+l'équipe n°8 gagne
+combat 72: 14 VS 15
+l'équipe n°14 gagne
+{16, 18, 10, 7, 17, 12, 1, 11, 3, 5, 9, 13, 4, 6, 8, 14, 2, 15}
+{7, 6, 5, 5, 5, 5, 5, 4, 4, 4, 4, 3, 3, 3, 3, 3, 2, 1}
+le vainqueur du tournoi suisse est 16

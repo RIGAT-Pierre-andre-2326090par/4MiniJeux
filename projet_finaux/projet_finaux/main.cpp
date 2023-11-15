@@ -568,7 +568,6 @@ bool leJ1AGagne(unsigned jeu, unsigned seed){
     return a;
 }
 
-
 void afficheVector(vector <int> vec){
     cout << "{";
     for (size_t i = 0 ; i < vec.size() ; ++i){
@@ -709,11 +708,10 @@ void tournoiSuisse(string typeTournoi, vector <vector <joueur>> team, unsigned n
 int main(){
     //cout << "Hello World!" << endl;
     vector <vector <joueur>> team(18);
-    unsigned jeu = 1;
-    unsigned combat = 1;
+    unsigned jeu = 5;
+    unsigned combat = 4;
     unsigned seed = 0;
     donneEquipe(team);
-    //team.resize(16);
     afficheTeam(team);
     if (combat == 1) tournoiSansLooserBracket("du tournoi sans looser bracket",team,jeu,seed);
     if (combat == 2) tournoiAvecLooserBracket("du tournoi avec looser bracket",team,jeu,seed);
