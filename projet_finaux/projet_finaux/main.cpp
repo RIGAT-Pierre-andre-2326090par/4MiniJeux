@@ -4,6 +4,8 @@
 
 using namespace std;
 
+//programmes de lecture de la console : alain casali
+
 // 1 juste prix
 
 bool justePrix(unsigned seed) {
@@ -709,7 +711,7 @@ int main(){
     //cout << "Hello World!" << endl;
     vector <vector <joueur>> team(18);
     unsigned jeu = 5;
-    unsigned combat = 4;
+    unsigned combat = 1;
     unsigned seed = 0;
     donneEquipe(team);
     afficheTeam(team);
